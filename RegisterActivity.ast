@@ -1,0 +1,2204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompilationUnit BeginColumn="1" BeginLine="1" EndColumn="3" EndLine="55" FindBoundary="false"
+                 Image=""
+                 PackageName="wasif.fyp.smartrestaurant"
+                 SingleLine="false"
+                 declarationsAreInDefaultPackage="false">
+   <PackageDeclaration BeginColumn="1" BeginLine="1" EndColumn="34" EndLine="1" FindBoundary="false"
+                       Image=""
+                       Name="wasif.fyp.smartrestaurant"
+                       PackageNameImage="wasif.fyp.smartrestaurant"
+                       SingleLine="true">
+      <Name BeginColumn="9" BeginLine="1" EndColumn="33" EndLine="1" FindBoundary="false"
+            Image="wasif.fyp.smartrestaurant"
+            SingleLine="true"/>
+   </PackageDeclaration>
+   <ImportDeclaration BeginColumn="1" BeginLine="3" EndColumn="25" EndLine="3" FindBoundary="false"
+                      Image=""
+                      ImportOnDemand="false"
+                      ImportedName="android.os.Bundle"
+                      ImportedSimpleName="Bundle"
+                      PackageName="android.os"
+                      SingleLine="true"
+                      Static="false">
+      <Name BeginColumn="8" BeginLine="3" EndColumn="24" EndLine="3" FindBoundary="false"
+            Image="android.os.Bundle"
+            SingleLine="true"/>
+   </ImportDeclaration>
+   <ImportDeclaration BeginColumn="1" BeginLine="4" EndColumn="48" EndLine="4" FindBoundary="false"
+                      Image=""
+                      ImportOnDemand="false"
+                      ImportedName="android.support.v7.app.AppCompatActivity"
+                      ImportedSimpleName="AppCompatActivity"
+                      PackageName="android.support.v7.app"
+                      SingleLine="true"
+                      Static="false">
+      <Name BeginColumn="8" BeginLine="4" EndColumn="47" EndLine="4" FindBoundary="false"
+            Image="android.support.v7.app.AppCompatActivity"
+            SingleLine="true"/>
+   </ImportDeclaration>
+   <ImportDeclaration BeginColumn="1" BeginLine="5" EndColumn="25" EndLine="5" FindBoundary="false"
+                      Image=""
+                      ImportOnDemand="false"
+                      ImportedName="android.view.View"
+                      ImportedSimpleName="View"
+                      PackageName="android.view"
+                      SingleLine="true"
+                      Static="false">
+      <Name BeginColumn="8" BeginLine="5" EndColumn="24" EndLine="5" FindBoundary="false"
+            Image="android.view.View"
+            SingleLine="true"/>
+   </ImportDeclaration>
+   <ImportDeclaration BeginColumn="1" BeginLine="6" EndColumn="34" EndLine="6" FindBoundary="false"
+                      Image=""
+                      ImportOnDemand="false"
+                      ImportedName="android.widget.AdapterView"
+                      ImportedSimpleName="AdapterView"
+                      PackageName="android.widget"
+                      SingleLine="true"
+                      Static="false">
+      <Name BeginColumn="8" BeginLine="6" EndColumn="33" EndLine="6" FindBoundary="false"
+            Image="android.widget.AdapterView"
+            SingleLine="true"/>
+   </ImportDeclaration>
+   <ImportDeclaration BeginColumn="1" BeginLine="7" EndColumn="35" EndLine="7" FindBoundary="false"
+                      Image=""
+                      ImportOnDemand="false"
+                      ImportedName="android.widget.ArrayAdapter"
+                      ImportedSimpleName="ArrayAdapter"
+                      PackageName="android.widget"
+                      SingleLine="true"
+                      Static="false">
+      <Name BeginColumn="8" BeginLine="7" EndColumn="34" EndLine="7" FindBoundary="false"
+            Image="android.widget.ArrayAdapter"
+            SingleLine="true"/>
+   </ImportDeclaration>
+   <ImportDeclaration BeginColumn="1" BeginLine="8" EndColumn="30" EndLine="8" FindBoundary="false"
+                      Image=""
+                      ImportOnDemand="false"
+                      ImportedName="android.widget.Spinner"
+                      ImportedSimpleName="Spinner"
+                      PackageName="android.widget"
+                      SingleLine="true"
+                      Static="false">
+      <Name BeginColumn="8" BeginLine="8" EndColumn="29" EndLine="8" FindBoundary="false"
+            Image="android.widget.Spinner"
+            SingleLine="true"/>
+   </ImportDeclaration>
+   <ImportDeclaration BeginColumn="1" BeginLine="10" EndColumn="27" EndLine="10" FindBoundary="false"
+                      Image=""
+                      ImportOnDemand="false"
+                      ImportedName="java.util.ArrayList"
+                      ImportedSimpleName="ArrayList"
+                      PackageName="java.util"
+                      SingleLine="true"
+                      Static="false">
+      <Name BeginColumn="8" BeginLine="10" EndColumn="26" EndLine="10" FindBoundary="false"
+            Image="java.util.ArrayList"
+            SingleLine="true"/>
+   </ImportDeclaration>
+   <ImportDeclaration BeginColumn="1" BeginLine="11" EndColumn="22" EndLine="11" FindBoundary="false"
+                      Image=""
+                      ImportOnDemand="false"
+                      ImportedName="java.util.List"
+                      ImportedSimpleName="List"
+                      PackageName="java.util"
+                      SingleLine="true"
+                      Static="false">
+      <Name BeginColumn="8" BeginLine="11" EndColumn="21" EndLine="11" FindBoundary="false"
+            Image="java.util.List"
+            SingleLine="true"/>
+   </ImportDeclaration>
+   <TypeDeclaration BeginColumn="1" BeginLine="13" EndColumn="1" EndLine="55" FindBoundary="false"
+                    Image=""
+                    SingleLine="false">
+      <ClassOrInterfaceDeclaration Abstract="false" BeginColumn="8" BeginLine="13" BinaryName="" Default="false"
+                                   EndColumn="1"
+                                   EndLine="55"
+                                   Final="false"
+                                   FindBoundary="false"
+                                   Image="RegisterActivity"
+                                   Interface="false"
+                                   Local="false"
+                                   Modifiers="1"
+                                   Native="false"
+                                   Nested="false"
+                                   NonSealed="false"
+                                   PackagePrivate="false"
+                                   Private="false"
+                                   Protected="false"
+                                   Public="true"
+                                   Sealed="false"
+                                   SimpleName="RegisterActivity"
+                                   SingleLine="false"
+                                   Static="false"
+                                   Strictfp="false"
+                                   Synchronized="false"
+                                   Transient="false"
+                                   TypeKind="CLASS"
+                                   Volatile="false">
+         <ExtendsList BeginColumn="31" BeginLine="13" EndColumn="55" EndLine="13"
+                      FindBoundary="false"
+                      Image=""
+                      SingleLine="true">
+            <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="39"
+                                  BeginLine="13"
+                                  EndColumn="55"
+                                  EndLine="13"
+                                  FindBoundary="false"
+                                  Image="AppCompatActivity"
+                                  ReferenceToClassSameCompilationUnit="false"
+                                  SingleLine="true"/>
+         </ExtendsList>
+         <ClassOrInterfaceBody AnonymousInnerClass="false" BeginColumn="57" BeginLine="13" EndColumn="1"
+                               EndLine="55"
+                               EnumChild="false"
+                               FindBoundary="false"
+                               Image=""
+                               SingleLine="false">
+            <ClassOrInterfaceBodyDeclaration AnonymousInnerClass="false" BeginColumn="5" BeginLine="15" EndColumn="5"
+                                             EndLine="54"
+                                             EnumChild="false"
+                                             FindBoundary="false"
+                                             Image=""
+                                             Kind="METHOD"
+                                             SingleLine="false">
+               <Annotation AnnotationName="Override" BeginColumn="5" BeginLine="15" EndColumn="13"
+                           EndLine="15"
+                           FindBoundary="false"
+                           Image=""
+                           SingleLine="true">
+                  <MarkerAnnotation AnnotationName="Override" BeginColumn="5" BeginLine="15" EndColumn="13"
+                                    EndLine="15"
+                                    FindBoundary="false"
+                                    Image=""
+                                    SingleLine="true">
+                     <Name BeginColumn="6" BeginLine="15" EndColumn="13" EndLine="15" FindBoundary="false"
+                           Image="Override"
+                           SingleLine="true"/>
+                  </MarkerAnnotation>
+               </Annotation>
+               <MethodDeclaration Abstract="false" Arity="1" BeginColumn="15" BeginLine="16" Default="false"
+                                  EndColumn="5"
+                                  EndLine="54"
+                                  Final="false"
+                                  FindBoundary="false"
+                                  Image=""
+                                  InterfaceMember="false"
+                                  Kind="METHOD"
+                                  MethodName="onCreate"
+                                  Modifiers="2"
+                                  Name="onCreate"
+                                  Native="false"
+                                  PackagePrivate="false"
+                                  Private="false"
+                                  Protected="true"
+                                  Public="false"
+                                  SingleLine="false"
+                                  Static="false"
+                                  Strictfp="false"
+                                  Synchronized="false"
+                                  SyntacticallyAbstract="false"
+                                  SyntacticallyPublic="false"
+                                  Transient="false"
+                                  Void="true"
+                                  Volatile="false">
+                  <ResultType BeginColumn="15" BeginLine="16" EndColumn="18" EndLine="16"
+                              FindBoundary="false"
+                              Image=""
+                              SingleLine="true"
+                              Void="true"
+                              returnsArray="false"/>
+                  <MethodDeclarator BeginColumn="20" BeginLine="16" EndColumn="54" EndLine="16"
+                                    FindBoundary="false"
+                                    Image="onCreate"
+                                    ParameterCount="1"
+                                    SingleLine="true">
+                     <FormalParameters BeginColumn="28" BeginLine="16" EndColumn="54" EndLine="16"
+                                       FindBoundary="false"
+                                       Image=""
+                                       ParameterCount="1"
+                                       SingleLine="true"
+                                       Size="1">
+                        <FormalParameter Abstract="false" Array="false" ArrayDepth="0" BeginColumn="29" BeginLine="16"
+                                         Default="false"
+                                         EndColumn="53"
+                                         EndLine="16"
+                                         ExplicitReceiverParameter="false"
+                                         Final="false"
+                                         FindBoundary="false"
+                                         Image=""
+                                         Modifiers="0"
+                                         Native="false"
+                                         PackagePrivate="true"
+                                         Private="false"
+                                         Protected="false"
+                                         Public="false"
+                                         SingleLine="true"
+                                         Static="false"
+                                         Strictfp="false"
+                                         Synchronized="false"
+                                         Transient="false"
+                                         TypeInferred="false"
+                                         Varargs="false"
+                                         Volatile="false">
+                           <Type Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="29" BeginLine="16"
+                                 EndColumn="34"
+                                 EndLine="16"
+                                 FindBoundary="false"
+                                 Image=""
+                                 SingleLine="true"
+                                 TypeImage="Bundle">
+                              <ReferenceType Array="false" ArrayDepth="0" BeginColumn="29" BeginLine="16" EndColumn="34"
+                                             EndLine="16"
+                                             FindBoundary="false"
+                                             Image=""
+                                             SingleLine="true">
+                                 <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="29"
+                                                       BeginLine="16"
+                                                       EndColumn="34"
+                                                       EndLine="16"
+                                                       FindBoundary="false"
+                                                       Image="Bundle"
+                                                       ReferenceToClassSameCompilationUnit="false"
+                                                       SingleLine="true"/>
+                              </ReferenceType>
+                           </Type>
+                           <VariableDeclaratorId Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="36" BeginLine="16"
+                                                 EndColumn="53"
+                                                 EndLine="16"
+                                                 ExceptionBlockParameter="false"
+                                                 ExplicitReceiverParameter="false"
+                                                 Field="false"
+                                                 Final="false"
+                                                 FindBoundary="false"
+                                                 ForeachVariable="false"
+                                                 FormalParameter="true"
+                                                 Image="savedInstanceState"
+                                                 LambdaParameter="false"
+                                                 LocalVariable="false"
+                                                 Name="savedInstanceState"
+                                                 PatternBinding="false"
+                                                 ResourceDeclaration="false"
+                                                 SingleLine="true"
+                                                 TypeInferred="false"
+                                                 VariableName="savedInstanceState"/>
+                        </FormalParameter>
+                     </FormalParameters>
+                  </MethodDeclarator>
+                  <Block BeginColumn="56" BeginLine="16" EndColumn="5" EndLine="54" FindBoundary="false"
+                         Image=""
+                         SingleLine="false"
+                         containsComment="false">
+                     <BlockStatement Allocation="false" BeginColumn="9" BeginLine="17" EndColumn="43" EndLine="17"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <Statement BeginColumn="9" BeginLine="17" EndColumn="43" EndLine="17" FindBoundary="false"
+                                   Image=""
+                                   SingleLine="true">
+                           <StatementExpression BeginColumn="9" BeginLine="17" EndColumn="42" EndLine="17" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                              <PrimaryExpression BeginColumn="9" BeginLine="17" EndColumn="42" EndLine="17" FindBoundary="false"
+                                                 Image=""
+                                                 SingleLine="true">
+                                 <PrimaryPrefix BeginColumn="9" BeginLine="17" EndColumn="13" EndLine="17" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true"
+                                                SuperModifier="true"
+                                                ThisModifier="false"/>
+                                 <PrimarySuffix ArgumentCount="-1" Arguments="false" ArrayDereference="false" BeginColumn="14"
+                                                BeginLine="17"
+                                                EndColumn="22"
+                                                EndLine="17"
+                                                FindBoundary="false"
+                                                Image="onCreate"
+                                                SingleLine="true"/>
+                                 <PrimarySuffix ArgumentCount="1" Arguments="true" ArrayDereference="false" BeginColumn="23"
+                                                BeginLine="17"
+                                                EndColumn="42"
+                                                EndLine="17"
+                                                FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                                    <Arguments ArgumentCount="1" BeginColumn="23" BeginLine="17" EndColumn="42" EndLine="17"
+                                               FindBoundary="false"
+                                               Image=""
+                                               SingleLine="true"
+                                               Size="1">
+                                       <ArgumentList BeginColumn="24" BeginLine="17" EndColumn="41" EndLine="17"
+                                                     FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="true"
+                                                     Size="1">
+                                          <Expression BeginColumn="24" BeginLine="17" EndColumn="41" EndLine="17"
+                                                      FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="true"
+                                                      StandAlonePrimitive="false">
+                                             <PrimaryExpression BeginColumn="24" BeginLine="17" EndColumn="41" EndLine="17"
+                                                                FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="true">
+                                                <PrimaryPrefix BeginColumn="24" BeginLine="17" EndColumn="41" EndLine="17"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               SuperModifier="false"
+                                                               ThisModifier="false">
+                                                   <Name BeginColumn="24" BeginLine="17" EndColumn="41" EndLine="17"
+                                                         FindBoundary="false"
+                                                         Image="savedInstanceState"
+                                                         SingleLine="true"/>
+                                                </PrimaryPrefix>
+                                             </PrimaryExpression>
+                                          </Expression>
+                                       </ArgumentList>
+                                    </Arguments>
+                                 </PrimarySuffix>
+                              </PrimaryExpression>
+                           </StatementExpression>
+                        </Statement>
+                     </BlockStatement>
+                     <BlockStatement Allocation="false" BeginColumn="9" BeginLine="18" EndColumn="51" EndLine="18"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <Statement BeginColumn="9" BeginLine="18" EndColumn="51" EndLine="18" FindBoundary="false"
+                                   Image=""
+                                   SingleLine="true">
+                           <StatementExpression BeginColumn="9" BeginLine="18" EndColumn="50" EndLine="18" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                              <PrimaryExpression BeginColumn="9" BeginLine="18" EndColumn="50" EndLine="18" FindBoundary="false"
+                                                 Image=""
+                                                 SingleLine="true">
+                                 <PrimaryPrefix BeginColumn="9" BeginLine="18" EndColumn="22" EndLine="18" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true"
+                                                SuperModifier="false"
+                                                ThisModifier="false">
+                                    <Name BeginColumn="9" BeginLine="18" EndColumn="22" EndLine="18" FindBoundary="false"
+                                          Image="setContentView"
+                                          SingleLine="true"/>
+                                 </PrimaryPrefix>
+                                 <PrimarySuffix ArgumentCount="1" Arguments="true" ArrayDereference="false" BeginColumn="23"
+                                                BeginLine="18"
+                                                EndColumn="50"
+                                                EndLine="18"
+                                                FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                                    <Arguments ArgumentCount="1" BeginColumn="23" BeginLine="18" EndColumn="50" EndLine="18"
+                                               FindBoundary="false"
+                                               Image=""
+                                               SingleLine="true"
+                                               Size="1">
+                                       <ArgumentList BeginColumn="24" BeginLine="18" EndColumn="49" EndLine="18"
+                                                     FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="true"
+                                                     Size="1">
+                                          <Expression BeginColumn="24" BeginLine="18" EndColumn="49" EndLine="18"
+                                                      FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="true"
+                                                      StandAlonePrimitive="false">
+                                             <PrimaryExpression BeginColumn="24" BeginLine="18" EndColumn="49" EndLine="18"
+                                                                FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="true">
+                                                <PrimaryPrefix BeginColumn="24" BeginLine="18" EndColumn="49" EndLine="18"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               SuperModifier="false"
+                                                               ThisModifier="false">
+                                                   <Name BeginColumn="24" BeginLine="18" EndColumn="49" EndLine="18"
+                                                         FindBoundary="false"
+                                                         Image="R.layout.activity_register"
+                                                         SingleLine="true"/>
+                                                </PrimaryPrefix>
+                                             </PrimaryExpression>
+                                          </Expression>
+                                       </ArgumentList>
+                                    </Arguments>
+                                 </PrimarySuffix>
+                              </PrimaryExpression>
+                           </StatementExpression>
+                        </Statement>
+                     </BlockStatement>
+                     <BlockStatement Allocation="false" BeginColumn="9" BeginLine="22" EndColumn="63" EndLine="22"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <LocalVariableDeclaration Abstract="false" Array="false" ArrayDepth="0" BeginColumn="9" BeginLine="22"
+                                                  Default="false"
+                                                  EndColumn="62"
+                                                  EndLine="22"
+                                                  Final="false"
+                                                  FindBoundary="false"
+                                                  Image=""
+                                                  Modifiers="0"
+                                                  Native="false"
+                                                  PackagePrivate="true"
+                                                  Private="false"
+                                                  Protected="false"
+                                                  Public="false"
+                                                  SingleLine="true"
+                                                  Static="false"
+                                                  Strictfp="false"
+                                                  Synchronized="false"
+                                                  Transient="false"
+                                                  TypeInferred="false"
+                                                  VariableName="spinner"
+                                                  Volatile="false">
+                           <Type Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="9" BeginLine="22"
+                                 EndColumn="15"
+                                 EndLine="22"
+                                 FindBoundary="false"
+                                 Image=""
+                                 SingleLine="true"
+                                 TypeImage="Spinner">
+                              <ReferenceType Array="false" ArrayDepth="0" BeginColumn="9" BeginLine="22" EndColumn="15"
+                                             EndLine="22"
+                                             FindBoundary="false"
+                                             Image=""
+                                             SingleLine="true">
+                                 <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="9"
+                                                       BeginLine="22"
+                                                       EndColumn="15"
+                                                       EndLine="22"
+                                                       FindBoundary="false"
+                                                       Image="Spinner"
+                                                       ReferenceToClassSameCompilationUnit="false"
+                                                       SingleLine="true"/>
+                              </ReferenceType>
+                           </Type>
+                           <VariableDeclarator BeginColumn="17" BeginLine="22" EndColumn="62" EndLine="22"
+                                               FindBoundary="false"
+                                               Image=""
+                                               Initializer="true"
+                                               Name="spinner"
+                                               SingleLine="true">
+                              <VariableDeclaratorId Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="17" BeginLine="22"
+                                                    EndColumn="23"
+                                                    EndLine="22"
+                                                    ExceptionBlockParameter="false"
+                                                    ExplicitReceiverParameter="false"
+                                                    Field="false"
+                                                    Final="false"
+                                                    FindBoundary="false"
+                                                    ForeachVariable="false"
+                                                    FormalParameter="false"
+                                                    Image="spinner"
+                                                    LambdaParameter="false"
+                                                    LocalVariable="true"
+                                                    Name="spinner"
+                                                    PatternBinding="false"
+                                                    ResourceDeclaration="false"
+                                                    SingleLine="true"
+                                                    TypeInferred="false"
+                                                    VariableName="spinner"/>
+                              <VariableInitializer BeginColumn="27" BeginLine="22" EndColumn="62" EndLine="22"
+                                                   FindBoundary="false"
+                                                   Image=""
+                                                   SingleLine="true">
+                                 <Expression BeginColumn="27" BeginLine="22" EndColumn="62" EndLine="22"
+                                             FindBoundary="false"
+                                             Image=""
+                                             SingleLine="true"
+                                             StandAlonePrimitive="false">
+                                    <CastExpression BeginColumn="27" BeginLine="22" EndColumn="62" EndLine="22"
+                                                    FindBoundary="false"
+                                                    Image=""
+                                                    IntersectionTypes="false"
+                                                    SingleLine="true">
+                                       <Type Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="28" BeginLine="22"
+                                             EndColumn="34"
+                                             EndLine="22"
+                                             FindBoundary="false"
+                                             Image=""
+                                             SingleLine="true"
+                                             TypeImage="Spinner">
+                                          <ReferenceType Array="false" ArrayDepth="0" BeginColumn="28" BeginLine="22" EndColumn="34"
+                                                         EndLine="22"
+                                                         FindBoundary="false"
+                                                         Image=""
+                                                         SingleLine="true">
+                                             <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="28"
+                                                                   BeginLine="22"
+                                                                   EndColumn="34"
+                                                                   EndLine="22"
+                                                                   FindBoundary="false"
+                                                                   Image="Spinner"
+                                                                   ReferenceToClassSameCompilationUnit="false"
+                                                                   SingleLine="true"/>
+                                          </ReferenceType>
+                                       </Type>
+                                       <PrimaryExpression BeginColumn="37" BeginLine="22" EndColumn="62" EndLine="22"
+                                                          FindBoundary="false"
+                                                          Image=""
+                                                          SingleLine="true">
+                                          <PrimaryPrefix BeginColumn="37" BeginLine="22" EndColumn="48" EndLine="22"
+                                                         FindBoundary="false"
+                                                         Image=""
+                                                         SingleLine="true"
+                                                         SuperModifier="false"
+                                                         ThisModifier="false">
+                                             <Name BeginColumn="37" BeginLine="22" EndColumn="48" EndLine="22"
+                                                   FindBoundary="false"
+                                                   Image="findViewById"
+                                                   SingleLine="true"/>
+                                          </PrimaryPrefix>
+                                          <PrimarySuffix ArgumentCount="1" Arguments="true" ArrayDereference="false" BeginColumn="49"
+                                                         BeginLine="22"
+                                                         EndColumn="62"
+                                                         EndLine="22"
+                                                         FindBoundary="false"
+                                                         Image=""
+                                                         SingleLine="true">
+                                             <Arguments ArgumentCount="1" BeginColumn="49" BeginLine="22" EndColumn="62" EndLine="22"
+                                                        FindBoundary="false"
+                                                        Image=""
+                                                        SingleLine="true"
+                                                        Size="1">
+                                                <ArgumentList BeginColumn="50" BeginLine="22" EndColumn="61" EndLine="22"
+                                                              FindBoundary="false"
+                                                              Image=""
+                                                              SingleLine="true"
+                                                              Size="1">
+                                                   <Expression BeginColumn="50" BeginLine="22" EndColumn="61" EndLine="22"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               StandAlonePrimitive="false">
+                                                      <PrimaryExpression BeginColumn="50" BeginLine="22" EndColumn="61" EndLine="22"
+                                                                         FindBoundary="false"
+                                                                         Image=""
+                                                                         SingleLine="true">
+                                                         <PrimaryPrefix BeginColumn="50" BeginLine="22" EndColumn="61" EndLine="22"
+                                                                        FindBoundary="false"
+                                                                        Image=""
+                                                                        SingleLine="true"
+                                                                        SuperModifier="false"
+                                                                        ThisModifier="false">
+                                                            <Name BeginColumn="50" BeginLine="22" EndColumn="61" EndLine="22"
+                                                                  FindBoundary="false"
+                                                                  Image="R.id.spinner"
+                                                                  SingleLine="true"/>
+                                                         </PrimaryPrefix>
+                                                      </PrimaryExpression>
+                                                   </Expression>
+                                                </ArgumentList>
+                                             </Arguments>
+                                          </PrimarySuffix>
+                                       </PrimaryExpression>
+                                    </CastExpression>
+                                 </Expression>
+                              </VariableInitializer>
+                           </VariableDeclarator>
+                        </LocalVariableDeclaration>
+                     </BlockStatement>
+                     <BlockStatement Allocation="true" BeginColumn="9" BeginLine="25" EndColumn="11" EndLine="35"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="false">
+                        <Statement BeginColumn="9" BeginLine="25" EndColumn="11" EndLine="35" FindBoundary="false"
+                                   Image=""
+                                   SingleLine="false">
+                           <StatementExpression BeginColumn="9" BeginLine="25" EndColumn="10" EndLine="35" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="false">
+                              <PrimaryExpression BeginColumn="9" BeginLine="25" EndColumn="10" EndLine="35" FindBoundary="false"
+                                                 Image=""
+                                                 SingleLine="false">
+                                 <PrimaryPrefix BeginColumn="9" BeginLine="25" EndColumn="41" EndLine="25" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true"
+                                                SuperModifier="false"
+                                                ThisModifier="false">
+                                    <Name BeginColumn="9" BeginLine="25" EndColumn="41" EndLine="25" FindBoundary="false"
+                                          Image="spinner.setOnItemSelectedListener"
+                                          SingleLine="true"/>
+                                 </PrimaryPrefix>
+                                 <PrimarySuffix ArgumentCount="1" Arguments="true" ArrayDereference="false" BeginColumn="42"
+                                                BeginLine="25"
+                                                EndColumn="10"
+                                                EndLine="35"
+                                                FindBoundary="false"
+                                                Image=""
+                                                SingleLine="false">
+                                    <Arguments ArgumentCount="1" BeginColumn="42" BeginLine="25" EndColumn="10" EndLine="35"
+                                               FindBoundary="false"
+                                               Image=""
+                                               SingleLine="false"
+                                               Size="1">
+                                       <ArgumentList BeginColumn="43" BeginLine="25" EndColumn="9" EndLine="35" FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="false"
+                                                     Size="1">
+                                          <Expression BeginColumn="43" BeginLine="25" EndColumn="9" EndLine="35" FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="false"
+                                                      StandAlonePrimitive="false">
+                                             <PrimaryExpression BeginColumn="43" BeginLine="25" EndColumn="9" EndLine="35" FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="false">
+                                                <PrimaryPrefix BeginColumn="43" BeginLine="25" EndColumn="9" EndLine="35" FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="false"
+                                                               SuperModifier="false"
+                                                               ThisModifier="false">
+                                                   <AllocationExpression AnonymousClass="true" BeginColumn="43" BeginLine="25" EndColumn="9"
+                                                                         EndLine="35"
+                                                                         FindBoundary="false"
+                                                                         Image=""
+                                                                         SingleLine="false">
+                                                      <ClassOrInterfaceType AnonymousClass="true" Array="false" ArrayDepth="0" BeginColumn="47"
+                                                                            BeginLine="25"
+                                                                            EndColumn="80"
+                                                                            EndLine="25"
+                                                                            FindBoundary="false"
+                                                                            Image="AdapterView.OnItemSelectedListener"
+                                                                            ReferenceToClassSameCompilationUnit="false"
+                                                                            SingleLine="true"/>
+                                                      <Arguments ArgumentCount="0" BeginColumn="81" BeginLine="25" EndColumn="82" EndLine="25"
+                                                                 FindBoundary="false"
+                                                                 Image=""
+                                                                 SingleLine="true"
+                                                                 Size="0"/>
+                                                      <ClassOrInterfaceBody AnonymousInnerClass="true" BeginColumn="84" BeginLine="25" EndColumn="9"
+                                                                            EndLine="35"
+                                                                            EnumChild="false"
+                                                                            FindBoundary="false"
+                                                                            Image=""
+                                                                            SingleLine="false">
+                                                         <ClassOrInterfaceBodyDeclaration AnonymousInnerClass="true" BeginColumn="13" BeginLine="26" EndColumn="13"
+                                                                                          EndLine="29"
+                                                                                          EnumChild="false"
+                                                                                          FindBoundary="true"
+                                                                                          Image=""
+                                                                                          Kind="METHOD"
+                                                                                          SingleLine="false">
+                                                            <Annotation AnnotationName="Override" BeginColumn="13" BeginLine="26" EndColumn="21"
+                                                                        EndLine="26"
+                                                                        FindBoundary="false"
+                                                                        Image=""
+                                                                        SingleLine="true">
+                                                               <MarkerAnnotation AnnotationName="Override" BeginColumn="13" BeginLine="26" EndColumn="21"
+                                                                                 EndLine="26"
+                                                                                 FindBoundary="false"
+                                                                                 Image=""
+                                                                                 SingleLine="true">
+                                                                  <Name BeginColumn="14" BeginLine="26" EndColumn="21" EndLine="26"
+                                                                        FindBoundary="false"
+                                                                        Image="Override"
+                                                                        SingleLine="true"/>
+                                                               </MarkerAnnotation>
+                                                            </Annotation>
+                                                            <MethodDeclaration Abstract="false" Arity="4" BeginColumn="20" BeginLine="27" Default="false"
+                                                                               EndColumn="13"
+                                                                               EndLine="29"
+                                                                               Final="false"
+                                                                               FindBoundary="false"
+                                                                               Image=""
+                                                                               InterfaceMember="false"
+                                                                               Kind="METHOD"
+                                                                               MethodName="onItemSelected"
+                                                                               Modifiers="1"
+                                                                               Name="onItemSelected"
+                                                                               Native="false"
+                                                                               PackagePrivate="false"
+                                                                               Private="false"
+                                                                               Protected="false"
+                                                                               Public="true"
+                                                                               SingleLine="false"
+                                                                               Static="false"
+                                                                               Strictfp="false"
+                                                                               Synchronized="false"
+                                                                               SyntacticallyAbstract="false"
+                                                                               SyntacticallyPublic="true"
+                                                                               Transient="false"
+                                                                               Void="true"
+                                                                               Volatile="false">
+                                                               <ResultType BeginColumn="20" BeginLine="27" EndColumn="23" EndLine="27"
+                                                                           FindBoundary="false"
+                                                                           Image=""
+                                                                           SingleLine="true"
+                                                                           Void="true"
+                                                                           returnsArray="false"/>
+                                                               <MethodDeclarator BeginColumn="25" BeginLine="27" EndColumn="92" EndLine="27"
+                                                                                 FindBoundary="false"
+                                                                                 Image="onItemSelected"
+                                                                                 ParameterCount="4"
+                                                                                 SingleLine="true">
+                                                                  <FormalParameters BeginColumn="39" BeginLine="27" EndColumn="92" EndLine="27"
+                                                                                    FindBoundary="false"
+                                                                                    Image=""
+                                                                                    ParameterCount="4"
+                                                                                    SingleLine="true"
+                                                                                    Size="4">
+                                                                     <FormalParameter Abstract="false" Array="false" ArrayDepth="0" BeginColumn="40" BeginLine="27"
+                                                                                      Default="false"
+                                                                                      EndColumn="65"
+                                                                                      EndLine="27"
+                                                                                      ExplicitReceiverParameter="false"
+                                                                                      Final="false"
+                                                                                      FindBoundary="false"
+                                                                                      Image=""
+                                                                                      Modifiers="0"
+                                                                                      Native="false"
+                                                                                      PackagePrivate="true"
+                                                                                      Private="false"
+                                                                                      Protected="false"
+                                                                                      Public="false"
+                                                                                      SingleLine="true"
+                                                                                      Static="false"
+                                                                                      Strictfp="false"
+                                                                                      Synchronized="false"
+                                                                                      Transient="false"
+                                                                                      TypeInferred="false"
+                                                                                      Varargs="false"
+                                                                                      Volatile="false">
+                                                                        <Type Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="40" BeginLine="27"
+                                                                              EndColumn="53"
+                                                                              EndLine="27"
+                                                                              FindBoundary="false"
+                                                                              Image=""
+                                                                              SingleLine="true"
+                                                                              TypeImage="AdapterView">
+                                                                           <ReferenceType Array="false" ArrayDepth="0" BeginColumn="40" BeginLine="27" EndColumn="53"
+                                                                                          EndLine="27"
+                                                                                          FindBoundary="false"
+                                                                                          Image=""
+                                                                                          SingleLine="true">
+                                                                              <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="40"
+                                                                                                    BeginLine="27"
+                                                                                                    EndColumn="53"
+                                                                                                    EndLine="27"
+                                                                                                    FindBoundary="false"
+                                                                                                    Image="AdapterView"
+                                                                                                    ReferenceToClassSameCompilationUnit="false"
+                                                                                                    SingleLine="true">
+                                                                                 <TypeArguments BeginColumn="51" BeginLine="27" Diamond="false" EndColumn="53" EndLine="27"
+                                                                                                FindBoundary="false"
+                                                                                                Image=""
+                                                                                                SingleLine="true">
+                                                                                    <TypeArgument BeginColumn="52" BeginLine="27" EndColumn="52" EndLine="27"
+                                                                                                  FindBoundary="false"
+                                                                                                  Image=""
+                                                                                                  SingleLine="true"
+                                                                                                  Wildcard="true"/>
+                                                                                 </TypeArguments>
+                                                                              </ClassOrInterfaceType>
+                                                                           </ReferenceType>
+                                                                        </Type>
+                                                                        <VariableDeclaratorId Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="55" BeginLine="27"
+                                                                                              EndColumn="65"
+                                                                                              EndLine="27"
+                                                                                              ExceptionBlockParameter="false"
+                                                                                              ExplicitReceiverParameter="false"
+                                                                                              Field="false"
+                                                                                              Final="false"
+                                                                                              FindBoundary="false"
+                                                                                              ForeachVariable="false"
+                                                                                              FormalParameter="true"
+                                                                                              Image="adapterView"
+                                                                                              LambdaParameter="false"
+                                                                                              LocalVariable="false"
+                                                                                              Name="adapterView"
+                                                                                              PatternBinding="false"
+                                                                                              ResourceDeclaration="false"
+                                                                                              SingleLine="true"
+                                                                                              TypeInferred="false"
+                                                                                              VariableName="adapterView"/>
+                                                                     </FormalParameter>
+                                                                     <FormalParameter Abstract="false" Array="false" ArrayDepth="0" BeginColumn="68" BeginLine="27"
+                                                                                      Default="false"
+                                                                                      EndColumn="76"
+                                                                                      EndLine="27"
+                                                                                      ExplicitReceiverParameter="false"
+                                                                                      Final="false"
+                                                                                      FindBoundary="false"
+                                                                                      Image=""
+                                                                                      Modifiers="0"
+                                                                                      Native="false"
+                                                                                      PackagePrivate="true"
+                                                                                      Private="false"
+                                                                                      Protected="false"
+                                                                                      Public="false"
+                                                                                      SingleLine="true"
+                                                                                      Static="false"
+                                                                                      Strictfp="false"
+                                                                                      Synchronized="false"
+                                                                                      Transient="false"
+                                                                                      TypeInferred="false"
+                                                                                      Varargs="false"
+                                                                                      Volatile="false">
+                                                                        <Type Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="68" BeginLine="27"
+                                                                              EndColumn="71"
+                                                                              EndLine="27"
+                                                                              FindBoundary="false"
+                                                                              Image=""
+                                                                              SingleLine="true"
+                                                                              TypeImage="View">
+                                                                           <ReferenceType Array="false" ArrayDepth="0" BeginColumn="68" BeginLine="27" EndColumn="71"
+                                                                                          EndLine="27"
+                                                                                          FindBoundary="false"
+                                                                                          Image=""
+                                                                                          SingleLine="true">
+                                                                              <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="68"
+                                                                                                    BeginLine="27"
+                                                                                                    EndColumn="71"
+                                                                                                    EndLine="27"
+                                                                                                    FindBoundary="false"
+                                                                                                    Image="View"
+                                                                                                    ReferenceToClassSameCompilationUnit="false"
+                                                                                                    SingleLine="true"/>
+                                                                           </ReferenceType>
+                                                                        </Type>
+                                                                        <VariableDeclaratorId Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="73" BeginLine="27"
+                                                                                              EndColumn="76"
+                                                                                              EndLine="27"
+                                                                                              ExceptionBlockParameter="false"
+                                                                                              ExplicitReceiverParameter="false"
+                                                                                              Field="false"
+                                                                                              Final="false"
+                                                                                              FindBoundary="false"
+                                                                                              ForeachVariable="false"
+                                                                                              FormalParameter="true"
+                                                                                              Image="view"
+                                                                                              LambdaParameter="false"
+                                                                                              LocalVariable="false"
+                                                                                              Name="view"
+                                                                                              PatternBinding="false"
+                                                                                              ResourceDeclaration="false"
+                                                                                              SingleLine="true"
+                                                                                              TypeInferred="false"
+                                                                                              VariableName="view"/>
+                                                                     </FormalParameter>
+                                                                     <FormalParameter Abstract="false" Array="false" ArrayDepth="0" BeginColumn="79" BeginLine="27"
+                                                                                      Default="false"
+                                                                                      EndColumn="83"
+                                                                                      EndLine="27"
+                                                                                      ExplicitReceiverParameter="false"
+                                                                                      Final="false"
+                                                                                      FindBoundary="false"
+                                                                                      Image=""
+                                                                                      Modifiers="0"
+                                                                                      Native="false"
+                                                                                      PackagePrivate="true"
+                                                                                      Private="false"
+                                                                                      Protected="false"
+                                                                                      Public="false"
+                                                                                      SingleLine="true"
+                                                                                      Static="false"
+                                                                                      Strictfp="false"
+                                                                                      Synchronized="false"
+                                                                                      Transient="false"
+                                                                                      TypeInferred="false"
+                                                                                      Varargs="false"
+                                                                                      Volatile="false">
+                                                                        <Type Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="79" BeginLine="27"
+                                                                              EndColumn="81"
+                                                                              EndLine="27"
+                                                                              FindBoundary="false"
+                                                                              Image=""
+                                                                              SingleLine="true"
+                                                                              TypeImage="int">
+                                                                           <PrimitiveType Array="false" ArrayDepth="0" BeginColumn="79" BeginLine="27" Boolean="false"
+                                                                                          EndColumn="81"
+                                                                                          EndLine="27"
+                                                                                          FindBoundary="false"
+                                                                                          Image="int"
+                                                                                          SingleLine="true"/>
+                                                                        </Type>
+                                                                        <VariableDeclaratorId Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="83" BeginLine="27"
+                                                                                              EndColumn="83"
+                                                                                              EndLine="27"
+                                                                                              ExceptionBlockParameter="false"
+                                                                                              ExplicitReceiverParameter="false"
+                                                                                              Field="false"
+                                                                                              Final="false"
+                                                                                              FindBoundary="false"
+                                                                                              ForeachVariable="false"
+                                                                                              FormalParameter="true"
+                                                                                              Image="i"
+                                                                                              LambdaParameter="false"
+                                                                                              LocalVariable="false"
+                                                                                              Name="i"
+                                                                                              PatternBinding="false"
+                                                                                              ResourceDeclaration="false"
+                                                                                              SingleLine="true"
+                                                                                              TypeInferred="false"
+                                                                                              VariableName="i"/>
+                                                                     </FormalParameter>
+                                                                     <FormalParameter Abstract="false" Array="false" ArrayDepth="0" BeginColumn="86" BeginLine="27"
+                                                                                      Default="false"
+                                                                                      EndColumn="91"
+                                                                                      EndLine="27"
+                                                                                      ExplicitReceiverParameter="false"
+                                                                                      Final="false"
+                                                                                      FindBoundary="false"
+                                                                                      Image=""
+                                                                                      Modifiers="0"
+                                                                                      Native="false"
+                                                                                      PackagePrivate="true"
+                                                                                      Private="false"
+                                                                                      Protected="false"
+                                                                                      Public="false"
+                                                                                      SingleLine="true"
+                                                                                      Static="false"
+                                                                                      Strictfp="false"
+                                                                                      Synchronized="false"
+                                                                                      Transient="false"
+                                                                                      TypeInferred="false"
+                                                                                      Varargs="false"
+                                                                                      Volatile="false">
+                                                                        <Type Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="86" BeginLine="27"
+                                                                              EndColumn="89"
+                                                                              EndLine="27"
+                                                                              FindBoundary="false"
+                                                                              Image=""
+                                                                              SingleLine="true"
+                                                                              TypeImage="long">
+                                                                           <PrimitiveType Array="false" ArrayDepth="0" BeginColumn="86" BeginLine="27" Boolean="false"
+                                                                                          EndColumn="89"
+                                                                                          EndLine="27"
+                                                                                          FindBoundary="false"
+                                                                                          Image="long"
+                                                                                          SingleLine="true"/>
+                                                                        </Type>
+                                                                        <VariableDeclaratorId Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="91" BeginLine="27"
+                                                                                              EndColumn="91"
+                                                                                              EndLine="27"
+                                                                                              ExceptionBlockParameter="false"
+                                                                                              ExplicitReceiverParameter="false"
+                                                                                              Field="false"
+                                                                                              Final="false"
+                                                                                              FindBoundary="false"
+                                                                                              ForeachVariable="false"
+                                                                                              FormalParameter="true"
+                                                                                              Image="l"
+                                                                                              LambdaParameter="false"
+                                                                                              LocalVariable="false"
+                                                                                              Name="l"
+                                                                                              PatternBinding="false"
+                                                                                              ResourceDeclaration="false"
+                                                                                              SingleLine="true"
+                                                                                              TypeInferred="false"
+                                                                                              VariableName="l"/>
+                                                                     </FormalParameter>
+                                                                  </FormalParameters>
+                                                               </MethodDeclarator>
+                                                               <Block BeginColumn="94" BeginLine="27" EndColumn="13" EndLine="29"
+                                                                      FindBoundary="false"
+                                                                      Image=""
+                                                                      SingleLine="false"
+                                                                      containsComment="false"/>
+                                                            </MethodDeclaration>
+                                                         </ClassOrInterfaceBodyDeclaration>
+                                                         <ClassOrInterfaceBodyDeclaration AnonymousInnerClass="true" BeginColumn="13" BeginLine="31" EndColumn="13"
+                                                                                          EndLine="34"
+                                                                                          EnumChild="false"
+                                                                                          FindBoundary="true"
+                                                                                          Image=""
+                                                                                          Kind="METHOD"
+                                                                                          SingleLine="false">
+                                                            <Annotation AnnotationName="Override" BeginColumn="13" BeginLine="31" EndColumn="21"
+                                                                        EndLine="31"
+                                                                        FindBoundary="false"
+                                                                        Image=""
+                                                                        SingleLine="true">
+                                                               <MarkerAnnotation AnnotationName="Override" BeginColumn="13" BeginLine="31" EndColumn="21"
+                                                                                 EndLine="31"
+                                                                                 FindBoundary="false"
+                                                                                 Image=""
+                                                                                 SingleLine="true">
+                                                                  <Name BeginColumn="14" BeginLine="31" EndColumn="21" EndLine="31"
+                                                                        FindBoundary="false"
+                                                                        Image="Override"
+                                                                        SingleLine="true"/>
+                                                               </MarkerAnnotation>
+                                                            </Annotation>
+                                                            <MethodDeclaration Abstract="false" Arity="1" BeginColumn="20" BeginLine="32" Default="false"
+                                                                               EndColumn="13"
+                                                                               EndLine="34"
+                                                                               Final="false"
+                                                                               FindBoundary="false"
+                                                                               Image=""
+                                                                               InterfaceMember="false"
+                                                                               Kind="METHOD"
+                                                                               MethodName="onNothingSelected"
+                                                                               Modifiers="1"
+                                                                               Name="onNothingSelected"
+                                                                               Native="false"
+                                                                               PackagePrivate="false"
+                                                                               Private="false"
+                                                                               Protected="false"
+                                                                               Public="true"
+                                                                               SingleLine="false"
+                                                                               Static="false"
+                                                                               Strictfp="false"
+                                                                               Synchronized="false"
+                                                                               SyntacticallyAbstract="false"
+                                                                               SyntacticallyPublic="true"
+                                                                               Transient="false"
+                                                                               Void="true"
+                                                                               Volatile="false">
+                                                               <ResultType BeginColumn="20" BeginLine="32" EndColumn="23" EndLine="32"
+                                                                           FindBoundary="false"
+                                                                           Image=""
+                                                                           SingleLine="true"
+                                                                           Void="true"
+                                                                           returnsArray="false"/>
+                                                               <MethodDeclarator BeginColumn="25" BeginLine="32" EndColumn="69" EndLine="32"
+                                                                                 FindBoundary="false"
+                                                                                 Image="onNothingSelected"
+                                                                                 ParameterCount="1"
+                                                                                 SingleLine="true">
+                                                                  <FormalParameters BeginColumn="42" BeginLine="32" EndColumn="69" EndLine="32"
+                                                                                    FindBoundary="false"
+                                                                                    Image=""
+                                                                                    ParameterCount="1"
+                                                                                    SingleLine="true"
+                                                                                    Size="1">
+                                                                     <FormalParameter Abstract="false" Array="false" ArrayDepth="0" BeginColumn="43" BeginLine="32"
+                                                                                      Default="false"
+                                                                                      EndColumn="68"
+                                                                                      EndLine="32"
+                                                                                      ExplicitReceiverParameter="false"
+                                                                                      Final="false"
+                                                                                      FindBoundary="false"
+                                                                                      Image=""
+                                                                                      Modifiers="0"
+                                                                                      Native="false"
+                                                                                      PackagePrivate="true"
+                                                                                      Private="false"
+                                                                                      Protected="false"
+                                                                                      Public="false"
+                                                                                      SingleLine="true"
+                                                                                      Static="false"
+                                                                                      Strictfp="false"
+                                                                                      Synchronized="false"
+                                                                                      Transient="false"
+                                                                                      TypeInferred="false"
+                                                                                      Varargs="false"
+                                                                                      Volatile="false">
+                                                                        <Type Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="43" BeginLine="32"
+                                                                              EndColumn="56"
+                                                                              EndLine="32"
+                                                                              FindBoundary="false"
+                                                                              Image=""
+                                                                              SingleLine="true"
+                                                                              TypeImage="AdapterView">
+                                                                           <ReferenceType Array="false" ArrayDepth="0" BeginColumn="43" BeginLine="32" EndColumn="56"
+                                                                                          EndLine="32"
+                                                                                          FindBoundary="false"
+                                                                                          Image=""
+                                                                                          SingleLine="true">
+                                                                              <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="43"
+                                                                                                    BeginLine="32"
+                                                                                                    EndColumn="56"
+                                                                                                    EndLine="32"
+                                                                                                    FindBoundary="false"
+                                                                                                    Image="AdapterView"
+                                                                                                    ReferenceToClassSameCompilationUnit="false"
+                                                                                                    SingleLine="true">
+                                                                                 <TypeArguments BeginColumn="54" BeginLine="32" Diamond="false" EndColumn="56" EndLine="32"
+                                                                                                FindBoundary="false"
+                                                                                                Image=""
+                                                                                                SingleLine="true">
+                                                                                    <TypeArgument BeginColumn="55" BeginLine="32" EndColumn="55" EndLine="32"
+                                                                                                  FindBoundary="false"
+                                                                                                  Image=""
+                                                                                                  SingleLine="true"
+                                                                                                  Wildcard="true"/>
+                                                                                 </TypeArguments>
+                                                                              </ClassOrInterfaceType>
+                                                                           </ReferenceType>
+                                                                        </Type>
+                                                                        <VariableDeclaratorId Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="58" BeginLine="32"
+                                                                                              EndColumn="68"
+                                                                                              EndLine="32"
+                                                                                              ExceptionBlockParameter="false"
+                                                                                              ExplicitReceiverParameter="false"
+                                                                                              Field="false"
+                                                                                              Final="false"
+                                                                                              FindBoundary="false"
+                                                                                              ForeachVariable="false"
+                                                                                              FormalParameter="true"
+                                                                                              Image="adapterView"
+                                                                                              LambdaParameter="false"
+                                                                                              LocalVariable="false"
+                                                                                              Name="adapterView"
+                                                                                              PatternBinding="false"
+                                                                                              ResourceDeclaration="false"
+                                                                                              SingleLine="true"
+                                                                                              TypeInferred="false"
+                                                                                              VariableName="adapterView"/>
+                                                                     </FormalParameter>
+                                                                  </FormalParameters>
+                                                               </MethodDeclarator>
+                                                               <Block BeginColumn="71" BeginLine="32" EndColumn="13" EndLine="34"
+                                                                      FindBoundary="false"
+                                                                      Image=""
+                                                                      SingleLine="false"
+                                                                      containsComment="false"/>
+                                                            </MethodDeclaration>
+                                                         </ClassOrInterfaceBodyDeclaration>
+                                                      </ClassOrInterfaceBody>
+                                                   </AllocationExpression>
+                                                </PrimaryPrefix>
+                                             </PrimaryExpression>
+                                          </Expression>
+                                       </ArgumentList>
+                                    </Arguments>
+                                 </PrimarySuffix>
+                              </PrimaryExpression>
+                           </StatementExpression>
+                        </Statement>
+                     </BlockStatement>
+                     <BlockStatement Allocation="true" BeginColumn="9" BeginLine="38" EndColumn="58" EndLine="38"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <LocalVariableDeclaration Abstract="false" Array="false" ArrayDepth="0" BeginColumn="9" BeginLine="38"
+                                                  Default="false"
+                                                  EndColumn="57"
+                                                  EndLine="38"
+                                                  Final="false"
+                                                  FindBoundary="false"
+                                                  Image=""
+                                                  Modifiers="0"
+                                                  Native="false"
+                                                  PackagePrivate="true"
+                                                  Private="false"
+                                                  Protected="false"
+                                                  Public="false"
+                                                  SingleLine="true"
+                                                  Static="false"
+                                                  Strictfp="false"
+                                                  Synchronized="false"
+                                                  Transient="false"
+                                                  TypeInferred="false"
+                                                  VariableName="categories"
+                                                  Volatile="false">
+                           <Type Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="9" BeginLine="38"
+                                 EndColumn="20"
+                                 EndLine="38"
+                                 FindBoundary="false"
+                                 Image=""
+                                 SingleLine="true"
+                                 TypeImage="List">
+                              <ReferenceType Array="false" ArrayDepth="0" BeginColumn="9" BeginLine="38" EndColumn="20"
+                                             EndLine="38"
+                                             FindBoundary="false"
+                                             Image=""
+                                             SingleLine="true">
+                                 <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="9"
+                                                       BeginLine="38"
+                                                       EndColumn="20"
+                                                       EndLine="38"
+                                                       FindBoundary="false"
+                                                       Image="List"
+                                                       ReferenceToClassSameCompilationUnit="false"
+                                                       SingleLine="true">
+                                    <TypeArguments BeginColumn="13" BeginLine="38" Diamond="false" EndColumn="20" EndLine="38"
+                                                   FindBoundary="false"
+                                                   Image=""
+                                                   SingleLine="true">
+                                       <TypeArgument BeginColumn="14" BeginLine="38" EndColumn="19" EndLine="38"
+                                                     FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="true"
+                                                     Wildcard="false">
+                                          <ReferenceType Array="false" ArrayDepth="0" BeginColumn="14" BeginLine="38" EndColumn="19"
+                                                         EndLine="38"
+                                                         FindBoundary="false"
+                                                         Image=""
+                                                         SingleLine="true">
+                                             <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="14"
+                                                                   BeginLine="38"
+                                                                   EndColumn="19"
+                                                                   EndLine="38"
+                                                                   FindBoundary="false"
+                                                                   Image="String"
+                                                                   ReferenceToClassSameCompilationUnit="false"
+                                                                   SingleLine="true"/>
+                                          </ReferenceType>
+                                       </TypeArgument>
+                                    </TypeArguments>
+                                 </ClassOrInterfaceType>
+                              </ReferenceType>
+                           </Type>
+                           <VariableDeclarator BeginColumn="22" BeginLine="38" EndColumn="57" EndLine="38"
+                                               FindBoundary="false"
+                                               Image=""
+                                               Initializer="true"
+                                               Name="categories"
+                                               SingleLine="true">
+                              <VariableDeclaratorId Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="22" BeginLine="38"
+                                                    EndColumn="31"
+                                                    EndLine="38"
+                                                    ExceptionBlockParameter="false"
+                                                    ExplicitReceiverParameter="false"
+                                                    Field="false"
+                                                    Final="false"
+                                                    FindBoundary="false"
+                                                    ForeachVariable="false"
+                                                    FormalParameter="false"
+                                                    Image="categories"
+                                                    LambdaParameter="false"
+                                                    LocalVariable="true"
+                                                    Name="categories"
+                                                    PatternBinding="false"
+                                                    ResourceDeclaration="false"
+                                                    SingleLine="true"
+                                                    TypeInferred="false"
+                                                    VariableName="categories"/>
+                              <VariableInitializer BeginColumn="35" BeginLine="38" EndColumn="57" EndLine="38"
+                                                   FindBoundary="false"
+                                                   Image=""
+                                                   SingleLine="true">
+                                 <Expression BeginColumn="35" BeginLine="38" EndColumn="57" EndLine="38"
+                                             FindBoundary="false"
+                                             Image=""
+                                             SingleLine="true"
+                                             StandAlonePrimitive="false">
+                                    <PrimaryExpression BeginColumn="35" BeginLine="38" EndColumn="57" EndLine="38"
+                                                       FindBoundary="false"
+                                                       Image=""
+                                                       SingleLine="true">
+                                       <PrimaryPrefix BeginColumn="35" BeginLine="38" EndColumn="57" EndLine="38"
+                                                      FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="true"
+                                                      SuperModifier="false"
+                                                      ThisModifier="false">
+                                          <AllocationExpression AnonymousClass="false" BeginColumn="35" BeginLine="38" EndColumn="57"
+                                                                EndLine="38"
+                                                                FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="true">
+                                             <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="39"
+                                                                   BeginLine="38"
+                                                                   EndColumn="55"
+                                                                   EndLine="38"
+                                                                   FindBoundary="false"
+                                                                   Image="ArrayList"
+                                                                   ReferenceToClassSameCompilationUnit="false"
+                                                                   SingleLine="true">
+                                                <TypeArguments BeginColumn="48" BeginLine="38" Diamond="false" EndColumn="55" EndLine="38"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true">
+                                                   <TypeArgument BeginColumn="49" BeginLine="38" EndColumn="54" EndLine="38"
+                                                                 FindBoundary="false"
+                                                                 Image=""
+                                                                 SingleLine="true"
+                                                                 Wildcard="false">
+                                                      <ReferenceType Array="false" ArrayDepth="0" BeginColumn="49" BeginLine="38" EndColumn="54"
+                                                                     EndLine="38"
+                                                                     FindBoundary="false"
+                                                                     Image=""
+                                                                     SingleLine="true">
+                                                         <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="49"
+                                                                               BeginLine="38"
+                                                                               EndColumn="54"
+                                                                               EndLine="38"
+                                                                               FindBoundary="false"
+                                                                               Image="String"
+                                                                               ReferenceToClassSameCompilationUnit="false"
+                                                                               SingleLine="true"/>
+                                                      </ReferenceType>
+                                                   </TypeArgument>
+                                                </TypeArguments>
+                                             </ClassOrInterfaceType>
+                                             <Arguments ArgumentCount="0" BeginColumn="56" BeginLine="38" EndColumn="57" EndLine="38"
+                                                        FindBoundary="false"
+                                                        Image=""
+                                                        SingleLine="true"
+                                                        Size="0"/>
+                                          </AllocationExpression>
+                                       </PrimaryPrefix>
+                                    </PrimaryExpression>
+                                 </Expression>
+                              </VariableInitializer>
+                           </VariableDeclarator>
+                        </LocalVariableDeclaration>
+                     </BlockStatement>
+                     <BlockStatement Allocation="false" BeginColumn="9" BeginLine="39" EndColumn="35" EndLine="39"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <Statement BeginColumn="9" BeginLine="39" EndColumn="35" EndLine="39" FindBoundary="false"
+                                   Image=""
+                                   SingleLine="true">
+                           <StatementExpression BeginColumn="9" BeginLine="39" EndColumn="34" EndLine="39" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                              <PrimaryExpression BeginColumn="9" BeginLine="39" EndColumn="34" EndLine="39" FindBoundary="false"
+                                                 Image=""
+                                                 SingleLine="true">
+                                 <PrimaryPrefix BeginColumn="9" BeginLine="39" EndColumn="22" EndLine="39" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true"
+                                                SuperModifier="false"
+                                                ThisModifier="false">
+                                    <Name BeginColumn="9" BeginLine="39" EndColumn="22" EndLine="39" FindBoundary="false"
+                                          Image="categories.add"
+                                          SingleLine="true"/>
+                                 </PrimaryPrefix>
+                                 <PrimarySuffix ArgumentCount="1" Arguments="true" ArrayDereference="false" BeginColumn="23"
+                                                BeginLine="39"
+                                                EndColumn="34"
+                                                EndLine="39"
+                                                FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                                    <Arguments ArgumentCount="1" BeginColumn="23" BeginLine="39" EndColumn="34" EndLine="39"
+                                               FindBoundary="false"
+                                               Image=""
+                                               SingleLine="true"
+                                               Size="1">
+                                       <ArgumentList BeginColumn="24" BeginLine="39" EndColumn="33" EndLine="39"
+                                                     FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="true"
+                                                     Size="1">
+                                          <Expression BeginColumn="24" BeginLine="39" EndColumn="33" EndLine="39"
+                                                      FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="true"
+                                                      StandAlonePrimitive="false">
+                                             <PrimaryExpression BeginColumn="24" BeginLine="39" EndColumn="33" EndLine="39"
+                                                                FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="true">
+                                                <PrimaryPrefix BeginColumn="24" BeginLine="39" EndColumn="33" EndLine="39"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               SuperModifier="false"
+                                                               ThisModifier="false">
+                                                   <Literal BeginColumn="24" BeginLine="39" CharLiteral="false" DoubleLiteral="false"
+                                                            EndColumn="33"
+                                                            EndLine="39"
+                                                            EscapedStringLiteral="&#34;Pakistan&#34;"
+                                                            FindBoundary="false"
+                                                            FloatLiteral="false"
+                                                            Image="&#34;Pakistan&#34;"
+                                                            IntLiteral="false"
+                                                            LongLiteral="false"
+                                                            SingleCharacterStringLiteral="false"
+                                                            SingleLine="true"
+                                                            StringLiteral="true"
+                                                            TextBlock="false"
+                                                            TextBlockContent="&#34;Pakistan&#34;"
+                                                            ValueAsDouble="NaN"
+                                                            ValueAsFloat="NaN"
+                                                            ValueAsInt="0"
+                                                            ValueAsLong="0"/>
+                                                </PrimaryPrefix>
+                                             </PrimaryExpression>
+                                          </Expression>
+                                       </ArgumentList>
+                                    </Arguments>
+                                 </PrimarySuffix>
+                              </PrimaryExpression>
+                           </StatementExpression>
+                        </Statement>
+                     </BlockStatement>
+                     <BlockStatement Allocation="false" BeginColumn="9" BeginLine="40" EndColumn="47" EndLine="40"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <Statement BeginColumn="9" BeginLine="40" EndColumn="47" EndLine="40" FindBoundary="false"
+                                   Image=""
+                                   SingleLine="true">
+                           <StatementExpression BeginColumn="9" BeginLine="40" EndColumn="46" EndLine="40" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                              <PrimaryExpression BeginColumn="9" BeginLine="40" EndColumn="46" EndLine="40" FindBoundary="false"
+                                                 Image=""
+                                                 SingleLine="true">
+                                 <PrimaryPrefix BeginColumn="9" BeginLine="40" EndColumn="22" EndLine="40" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true"
+                                                SuperModifier="false"
+                                                ThisModifier="false">
+                                    <Name BeginColumn="9" BeginLine="40" EndColumn="22" EndLine="40" FindBoundary="false"
+                                          Image="categories.add"
+                                          SingleLine="true"/>
+                                 </PrimaryPrefix>
+                                 <PrimarySuffix ArgumentCount="1" Arguments="true" ArrayDereference="false" BeginColumn="23"
+                                                BeginLine="40"
+                                                EndColumn="46"
+                                                EndLine="40"
+                                                FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                                    <Arguments ArgumentCount="1" BeginColumn="23" BeginLine="40" EndColumn="46" EndLine="40"
+                                               FindBoundary="false"
+                                               Image=""
+                                               SingleLine="true"
+                                               Size="1">
+                                       <ArgumentList BeginColumn="24" BeginLine="40" EndColumn="45" EndLine="40"
+                                                     FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="true"
+                                                     Size="1">
+                                          <Expression BeginColumn="24" BeginLine="40" EndColumn="45" EndLine="40"
+                                                      FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="true"
+                                                      StandAlonePrimitive="false">
+                                             <PrimaryExpression BeginColumn="24" BeginLine="40" EndColumn="45" EndLine="40"
+                                                                FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="true">
+                                                <PrimaryPrefix BeginColumn="24" BeginLine="40" EndColumn="45" EndLine="40"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               SuperModifier="false"
+                                                               ThisModifier="false">
+                                                   <Literal BeginColumn="24" BeginLine="40" CharLiteral="false" DoubleLiteral="false"
+                                                            EndColumn="45"
+                                                            EndLine="40"
+                                                            EscapedStringLiteral="&#34;United Arab Emirates&#34;"
+                                                            FindBoundary="false"
+                                                            FloatLiteral="false"
+                                                            Image="&#34;United Arab Emirates&#34;"
+                                                            IntLiteral="false"
+                                                            LongLiteral="false"
+                                                            SingleCharacterStringLiteral="false"
+                                                            SingleLine="true"
+                                                            StringLiteral="true"
+                                                            TextBlock="false"
+                                                            TextBlockContent="&#34;United Arab Emirates&#34;"
+                                                            ValueAsDouble="NaN"
+                                                            ValueAsFloat="NaN"
+                                                            ValueAsInt="0"
+                                                            ValueAsLong="0"/>
+                                                </PrimaryPrefix>
+                                             </PrimaryExpression>
+                                          </Expression>
+                                       </ArgumentList>
+                                    </Arguments>
+                                 </PrimarySuffix>
+                              </PrimaryExpression>
+                           </StatementExpression>
+                        </Statement>
+                     </BlockStatement>
+                     <BlockStatement Allocation="false" BeginColumn="9" BeginLine="41" EndColumn="32" EndLine="41"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <Statement BeginColumn="9" BeginLine="41" EndColumn="32" EndLine="41" FindBoundary="false"
+                                   Image=""
+                                   SingleLine="true">
+                           <StatementExpression BeginColumn="9" BeginLine="41" EndColumn="31" EndLine="41" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                              <PrimaryExpression BeginColumn="9" BeginLine="41" EndColumn="31" EndLine="41" FindBoundary="false"
+                                                 Image=""
+                                                 SingleLine="true">
+                                 <PrimaryPrefix BeginColumn="9" BeginLine="41" EndColumn="22" EndLine="41" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true"
+                                                SuperModifier="false"
+                                                ThisModifier="false">
+                                    <Name BeginColumn="9" BeginLine="41" EndColumn="22" EndLine="41" FindBoundary="false"
+                                          Image="categories.add"
+                                          SingleLine="true"/>
+                                 </PrimaryPrefix>
+                                 <PrimarySuffix ArgumentCount="1" Arguments="true" ArrayDereference="false" BeginColumn="23"
+                                                BeginLine="41"
+                                                EndColumn="31"
+                                                EndLine="41"
+                                                FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                                    <Arguments ArgumentCount="1" BeginColumn="23" BeginLine="41" EndColumn="31" EndLine="41"
+                                               FindBoundary="false"
+                                               Image=""
+                                               SingleLine="true"
+                                               Size="1">
+                                       <ArgumentList BeginColumn="24" BeginLine="41" EndColumn="30" EndLine="41"
+                                                     FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="true"
+                                                     Size="1">
+                                          <Expression BeginColumn="24" BeginLine="41" EndColumn="30" EndLine="41"
+                                                      FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="true"
+                                                      StandAlonePrimitive="false">
+                                             <PrimaryExpression BeginColumn="24" BeginLine="41" EndColumn="30" EndLine="41"
+                                                                FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="true">
+                                                <PrimaryPrefix BeginColumn="24" BeginLine="41" EndColumn="30" EndLine="41"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               SuperModifier="false"
+                                                               ThisModifier="false">
+                                                   <Literal BeginColumn="24" BeginLine="41" CharLiteral="false" DoubleLiteral="false"
+                                                            EndColumn="30"
+                                                            EndLine="41"
+                                                            EscapedStringLiteral="&#34;India&#34;"
+                                                            FindBoundary="false"
+                                                            FloatLiteral="false"
+                                                            Image="&#34;India&#34;"
+                                                            IntLiteral="false"
+                                                            LongLiteral="false"
+                                                            SingleCharacterStringLiteral="false"
+                                                            SingleLine="true"
+                                                            StringLiteral="true"
+                                                            TextBlock="false"
+                                                            TextBlockContent="&#34;India&#34;"
+                                                            ValueAsDouble="NaN"
+                                                            ValueAsFloat="NaN"
+                                                            ValueAsInt="0"
+                                                            ValueAsLong="0"/>
+                                                </PrimaryPrefix>
+                                             </PrimaryExpression>
+                                          </Expression>
+                                       </ArgumentList>
+                                    </Arguments>
+                                 </PrimarySuffix>
+                              </PrimaryExpression>
+                           </StatementExpression>
+                        </Statement>
+                     </BlockStatement>
+                     <BlockStatement Allocation="false" BeginColumn="9" BeginLine="42" EndColumn="32" EndLine="42"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <Statement BeginColumn="9" BeginLine="42" EndColumn="32" EndLine="42" FindBoundary="false"
+                                   Image=""
+                                   SingleLine="true">
+                           <StatementExpression BeginColumn="9" BeginLine="42" EndColumn="31" EndLine="42" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                              <PrimaryExpression BeginColumn="9" BeginLine="42" EndColumn="31" EndLine="42" FindBoundary="false"
+                                                 Image=""
+                                                 SingleLine="true">
+                                 <PrimaryPrefix BeginColumn="9" BeginLine="42" EndColumn="22" EndLine="42" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true"
+                                                SuperModifier="false"
+                                                ThisModifier="false">
+                                    <Name BeginColumn="9" BeginLine="42" EndColumn="22" EndLine="42" FindBoundary="false"
+                                          Image="categories.add"
+                                          SingleLine="true"/>
+                                 </PrimaryPrefix>
+                                 <PrimarySuffix ArgumentCount="1" Arguments="true" ArrayDereference="false" BeginColumn="23"
+                                                BeginLine="42"
+                                                EndColumn="31"
+                                                EndLine="42"
+                                                FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                                    <Arguments ArgumentCount="1" BeginColumn="23" BeginLine="42" EndColumn="31" EndLine="42"
+                                               FindBoundary="false"
+                                               Image=""
+                                               SingleLine="true"
+                                               Size="1">
+                                       <ArgumentList BeginColumn="24" BeginLine="42" EndColumn="30" EndLine="42"
+                                                     FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="true"
+                                                     Size="1">
+                                          <Expression BeginColumn="24" BeginLine="42" EndColumn="30" EndLine="42"
+                                                      FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="true"
+                                                      StandAlonePrimitive="false">
+                                             <PrimaryExpression BeginColumn="24" BeginLine="42" EndColumn="30" EndLine="42"
+                                                                FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="true">
+                                                <PrimaryPrefix BeginColumn="24" BeginLine="42" EndColumn="30" EndLine="42"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               SuperModifier="false"
+                                                               ThisModifier="false">
+                                                   <Literal BeginColumn="24" BeginLine="42" CharLiteral="false" DoubleLiteral="false"
+                                                            EndColumn="30"
+                                                            EndLine="42"
+                                                            EscapedStringLiteral="&#34;China&#34;"
+                                                            FindBoundary="false"
+                                                            FloatLiteral="false"
+                                                            Image="&#34;China&#34;"
+                                                            IntLiteral="false"
+                                                            LongLiteral="false"
+                                                            SingleCharacterStringLiteral="false"
+                                                            SingleLine="true"
+                                                            StringLiteral="true"
+                                                            TextBlock="false"
+                                                            TextBlockContent="&#34;China&#34;"
+                                                            ValueAsDouble="NaN"
+                                                            ValueAsFloat="NaN"
+                                                            ValueAsInt="0"
+                                                            ValueAsLong="0"/>
+                                                </PrimaryPrefix>
+                                             </PrimaryExpression>
+                                          </Expression>
+                                       </ArgumentList>
+                                    </Arguments>
+                                 </PrimarySuffix>
+                              </PrimaryExpression>
+                           </StatementExpression>
+                        </Statement>
+                     </BlockStatement>
+                     <BlockStatement Allocation="false" BeginColumn="9" BeginLine="43" EndColumn="40" EndLine="43"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <Statement BeginColumn="9" BeginLine="43" EndColumn="40" EndLine="43" FindBoundary="false"
+                                   Image=""
+                                   SingleLine="true">
+                           <StatementExpression BeginColumn="9" BeginLine="43" EndColumn="39" EndLine="43" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                              <PrimaryExpression BeginColumn="9" BeginLine="43" EndColumn="39" EndLine="43" FindBoundary="false"
+                                                 Image=""
+                                                 SingleLine="true">
+                                 <PrimaryPrefix BeginColumn="9" BeginLine="43" EndColumn="22" EndLine="43" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true"
+                                                SuperModifier="false"
+                                                ThisModifier="false">
+                                    <Name BeginColumn="9" BeginLine="43" EndColumn="22" EndLine="43" FindBoundary="false"
+                                          Image="categories.add"
+                                          SingleLine="true"/>
+                                 </PrimaryPrefix>
+                                 <PrimarySuffix ArgumentCount="1" Arguments="true" ArrayDereference="false" BeginColumn="23"
+                                                BeginLine="43"
+                                                EndColumn="39"
+                                                EndLine="43"
+                                                FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                                    <Arguments ArgumentCount="1" BeginColumn="23" BeginLine="43" EndColumn="39" EndLine="43"
+                                               FindBoundary="false"
+                                               Image=""
+                                               SingleLine="true"
+                                               Size="1">
+                                       <ArgumentList BeginColumn="24" BeginLine="43" EndColumn="38" EndLine="43"
+                                                     FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="true"
+                                                     Size="1">
+                                          <Expression BeginColumn="24" BeginLine="43" EndColumn="38" EndLine="43"
+                                                      FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="true"
+                                                      StandAlonePrimitive="false">
+                                             <PrimaryExpression BeginColumn="24" BeginLine="43" EndColumn="38" EndLine="43"
+                                                                FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="true">
+                                                <PrimaryPrefix BeginColumn="24" BeginLine="43" EndColumn="38" EndLine="43"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               SuperModifier="false"
+                                                               ThisModifier="false">
+                                                   <Literal BeginColumn="24" BeginLine="43" CharLiteral="false" DoubleLiteral="false"
+                                                            EndColumn="38"
+                                                            EndLine="43"
+                                                            EscapedStringLiteral="&#34;United States&#34;"
+                                                            FindBoundary="false"
+                                                            FloatLiteral="false"
+                                                            Image="&#34;United States&#34;"
+                                                            IntLiteral="false"
+                                                            LongLiteral="false"
+                                                            SingleCharacterStringLiteral="false"
+                                                            SingleLine="true"
+                                                            StringLiteral="true"
+                                                            TextBlock="false"
+                                                            TextBlockContent="&#34;United States&#34;"
+                                                            ValueAsDouble="NaN"
+                                                            ValueAsFloat="NaN"
+                                                            ValueAsInt="0"
+                                                            ValueAsLong="0"/>
+                                                </PrimaryPrefix>
+                                             </PrimaryExpression>
+                                          </Expression>
+                                       </ArgumentList>
+                                    </Arguments>
+                                 </PrimarySuffix>
+                              </PrimaryExpression>
+                           </StatementExpression>
+                        </Statement>
+                     </BlockStatement>
+                     <BlockStatement Allocation="false" BeginColumn="9" BeginLine="44" EndColumn="41" EndLine="44"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <Statement BeginColumn="9" BeginLine="44" EndColumn="41" EndLine="44" FindBoundary="false"
+                                   Image=""
+                                   SingleLine="true">
+                           <StatementExpression BeginColumn="9" BeginLine="44" EndColumn="40" EndLine="44" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                              <PrimaryExpression BeginColumn="9" BeginLine="44" EndColumn="40" EndLine="44" FindBoundary="false"
+                                                 Image=""
+                                                 SingleLine="true">
+                                 <PrimaryPrefix BeginColumn="9" BeginLine="44" EndColumn="22" EndLine="44" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true"
+                                                SuperModifier="false"
+                                                ThisModifier="false">
+                                    <Name BeginColumn="9" BeginLine="44" EndColumn="22" EndLine="44" FindBoundary="false"
+                                          Image="categories.add"
+                                          SingleLine="true"/>
+                                 </PrimaryPrefix>
+                                 <PrimarySuffix ArgumentCount="1" Arguments="true" ArrayDereference="false" BeginColumn="23"
+                                                BeginLine="44"
+                                                EndColumn="40"
+                                                EndLine="44"
+                                                FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                                    <Arguments ArgumentCount="1" BeginColumn="23" BeginLine="44" EndColumn="40" EndLine="44"
+                                               FindBoundary="false"
+                                               Image=""
+                                               SingleLine="true"
+                                               Size="1">
+                                       <ArgumentList BeginColumn="24" BeginLine="44" EndColumn="39" EndLine="44"
+                                                     FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="true"
+                                                     Size="1">
+                                          <Expression BeginColumn="24" BeginLine="44" EndColumn="39" EndLine="44"
+                                                      FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="true"
+                                                      StandAlonePrimitive="false">
+                                             <PrimaryExpression BeginColumn="24" BeginLine="44" EndColumn="39" EndLine="44"
+                                                                FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="true">
+                                                <PrimaryPrefix BeginColumn="24" BeginLine="44" EndColumn="39" EndLine="44"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               SuperModifier="false"
+                                                               ThisModifier="false">
+                                                   <Literal BeginColumn="24" BeginLine="44" CharLiteral="false" DoubleLiteral="false"
+                                                            EndColumn="39"
+                                                            EndLine="44"
+                                                            EscapedStringLiteral="&#34;United Kingdom&#34;"
+                                                            FindBoundary="false"
+                                                            FloatLiteral="false"
+                                                            Image="&#34;United Kingdom&#34;"
+                                                            IntLiteral="false"
+                                                            LongLiteral="false"
+                                                            SingleCharacterStringLiteral="false"
+                                                            SingleLine="true"
+                                                            StringLiteral="true"
+                                                            TextBlock="false"
+                                                            TextBlockContent="&#34;United Kingdom&#34;"
+                                                            ValueAsDouble="NaN"
+                                                            ValueAsFloat="NaN"
+                                                            ValueAsInt="0"
+                                                            ValueAsLong="0"/>
+                                                </PrimaryPrefix>
+                                             </PrimaryExpression>
+                                          </Expression>
+                                       </ArgumentList>
+                                    </Arguments>
+                                 </PrimarySuffix>
+                              </PrimaryExpression>
+                           </StatementExpression>
+                        </Statement>
+                     </BlockStatement>
+                     <BlockStatement Allocation="true" BeginColumn="9" BeginLine="47" EndColumn="131" EndLine="47"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <LocalVariableDeclaration Abstract="false" Array="false" ArrayDepth="0" BeginColumn="9" BeginLine="47"
+                                                  Default="false"
+                                                  EndColumn="130"
+                                                  EndLine="47"
+                                                  Final="false"
+                                                  FindBoundary="false"
+                                                  Image=""
+                                                  Modifiers="0"
+                                                  Native="false"
+                                                  PackagePrivate="true"
+                                                  Private="false"
+                                                  Protected="false"
+                                                  Public="false"
+                                                  SingleLine="true"
+                                                  Static="false"
+                                                  Strictfp="false"
+                                                  Synchronized="false"
+                                                  Transient="false"
+                                                  TypeInferred="false"
+                                                  VariableName="dataAdapter"
+                                                  Volatile="false">
+                           <Type Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="9" BeginLine="47"
+                                 EndColumn="28"
+                                 EndLine="47"
+                                 FindBoundary="false"
+                                 Image=""
+                                 SingleLine="true"
+                                 TypeImage="ArrayAdapter">
+                              <ReferenceType Array="false" ArrayDepth="0" BeginColumn="9" BeginLine="47" EndColumn="28"
+                                             EndLine="47"
+                                             FindBoundary="false"
+                                             Image=""
+                                             SingleLine="true">
+                                 <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="9"
+                                                       BeginLine="47"
+                                                       EndColumn="28"
+                                                       EndLine="47"
+                                                       FindBoundary="false"
+                                                       Image="ArrayAdapter"
+                                                       ReferenceToClassSameCompilationUnit="false"
+                                                       SingleLine="true">
+                                    <TypeArguments BeginColumn="21" BeginLine="47" Diamond="false" EndColumn="28" EndLine="47"
+                                                   FindBoundary="false"
+                                                   Image=""
+                                                   SingleLine="true">
+                                       <TypeArgument BeginColumn="22" BeginLine="47" EndColumn="27" EndLine="47"
+                                                     FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="true"
+                                                     Wildcard="false">
+                                          <ReferenceType Array="false" ArrayDepth="0" BeginColumn="22" BeginLine="47" EndColumn="27"
+                                                         EndLine="47"
+                                                         FindBoundary="false"
+                                                         Image=""
+                                                         SingleLine="true">
+                                             <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="22"
+                                                                   BeginLine="47"
+                                                                   EndColumn="27"
+                                                                   EndLine="47"
+                                                                   FindBoundary="false"
+                                                                   Image="String"
+                                                                   ReferenceToClassSameCompilationUnit="false"
+                                                                   SingleLine="true"/>
+                                          </ReferenceType>
+                                       </TypeArgument>
+                                    </TypeArguments>
+                                 </ClassOrInterfaceType>
+                              </ReferenceType>
+                           </Type>
+                           <VariableDeclarator BeginColumn="30" BeginLine="47" EndColumn="130" EndLine="47"
+                                               FindBoundary="false"
+                                               Image=""
+                                               Initializer="true"
+                                               Name="dataAdapter"
+                                               SingleLine="true">
+                              <VariableDeclaratorId Array="false" ArrayDepth="0" ArrayType="false" BeginColumn="30" BeginLine="47"
+                                                    EndColumn="40"
+                                                    EndLine="47"
+                                                    ExceptionBlockParameter="false"
+                                                    ExplicitReceiverParameter="false"
+                                                    Field="false"
+                                                    Final="false"
+                                                    FindBoundary="false"
+                                                    ForeachVariable="false"
+                                                    FormalParameter="false"
+                                                    Image="dataAdapter"
+                                                    LambdaParameter="false"
+                                                    LocalVariable="true"
+                                                    Name="dataAdapter"
+                                                    PatternBinding="false"
+                                                    ResourceDeclaration="false"
+                                                    SingleLine="true"
+                                                    TypeInferred="false"
+                                                    VariableName="dataAdapter"/>
+                              <VariableInitializer BeginColumn="44" BeginLine="47" EndColumn="130" EndLine="47"
+                                                   FindBoundary="false"
+                                                   Image=""
+                                                   SingleLine="true">
+                                 <Expression BeginColumn="44" BeginLine="47" EndColumn="130" EndLine="47"
+                                             FindBoundary="false"
+                                             Image=""
+                                             SingleLine="true"
+                                             StandAlonePrimitive="false">
+                                    <PrimaryExpression BeginColumn="44" BeginLine="47" EndColumn="130" EndLine="47"
+                                                       FindBoundary="false"
+                                                       Image=""
+                                                       SingleLine="true">
+                                       <PrimaryPrefix BeginColumn="44" BeginLine="47" EndColumn="130" EndLine="47"
+                                                      FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="true"
+                                                      SuperModifier="false"
+                                                      ThisModifier="false">
+                                          <AllocationExpression AnonymousClass="false" BeginColumn="44" BeginLine="47" EndColumn="130"
+                                                                EndLine="47"
+                                                                FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="true">
+                                             <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="48"
+                                                                   BeginLine="47"
+                                                                   EndColumn="67"
+                                                                   EndLine="47"
+                                                                   FindBoundary="false"
+                                                                   Image="ArrayAdapter"
+                                                                   ReferenceToClassSameCompilationUnit="false"
+                                                                   SingleLine="true">
+                                                <TypeArguments BeginColumn="60" BeginLine="47" Diamond="false" EndColumn="67" EndLine="47"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true">
+                                                   <TypeArgument BeginColumn="61" BeginLine="47" EndColumn="66" EndLine="47"
+                                                                 FindBoundary="false"
+                                                                 Image=""
+                                                                 SingleLine="true"
+                                                                 Wildcard="false">
+                                                      <ReferenceType Array="false" ArrayDepth="0" BeginColumn="61" BeginLine="47" EndColumn="66"
+                                                                     EndLine="47"
+                                                                     FindBoundary="false"
+                                                                     Image=""
+                                                                     SingleLine="true">
+                                                         <ClassOrInterfaceType AnonymousClass="false" Array="false" ArrayDepth="0" BeginColumn="61"
+                                                                               BeginLine="47"
+                                                                               EndColumn="66"
+                                                                               EndLine="47"
+                                                                               FindBoundary="false"
+                                                                               Image="String"
+                                                                               ReferenceToClassSameCompilationUnit="false"
+                                                                               SingleLine="true"/>
+                                                      </ReferenceType>
+                                                   </TypeArgument>
+                                                </TypeArguments>
+                                             </ClassOrInterfaceType>
+                                             <Arguments ArgumentCount="3" BeginColumn="68" BeginLine="47" EndColumn="130" EndLine="47"
+                                                        FindBoundary="false"
+                                                        Image=""
+                                                        SingleLine="true"
+                                                        Size="3">
+                                                <ArgumentList BeginColumn="69" BeginLine="47" EndColumn="129" EndLine="47"
+                                                              FindBoundary="false"
+                                                              Image=""
+                                                              SingleLine="true"
+                                                              Size="3">
+                                                   <Expression BeginColumn="69" BeginLine="47" EndColumn="72" EndLine="47"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               StandAlonePrimitive="false">
+                                                      <PrimaryExpression BeginColumn="69" BeginLine="47" EndColumn="72" EndLine="47"
+                                                                         FindBoundary="false"
+                                                                         Image=""
+                                                                         SingleLine="true">
+                                                         <PrimaryPrefix BeginColumn="69" BeginLine="47" EndColumn="72" EndLine="47"
+                                                                        FindBoundary="false"
+                                                                        Image=""
+                                                                        SingleLine="true"
+                                                                        SuperModifier="false"
+                                                                        ThisModifier="true"/>
+                                                      </PrimaryExpression>
+                                                   </Expression>
+                                                   <Expression BeginColumn="75" BeginLine="47" EndColumn="117" EndLine="47"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               StandAlonePrimitive="false">
+                                                      <PrimaryExpression BeginColumn="75" BeginLine="47" EndColumn="117" EndLine="47"
+                                                                         FindBoundary="false"
+                                                                         Image=""
+                                                                         SingleLine="true">
+                                                         <PrimaryPrefix BeginColumn="75" BeginLine="47" EndColumn="117" EndLine="47"
+                                                                        FindBoundary="false"
+                                                                        Image=""
+                                                                        SingleLine="true"
+                                                                        SuperModifier="false"
+                                                                        ThisModifier="false">
+                                                            <Name BeginColumn="75" BeginLine="47" EndColumn="117" EndLine="47"
+                                                                  FindBoundary="false"
+                                                                  Image="android.R.layout.simple_dropdown_item_1line"
+                                                                  SingleLine="true"/>
+                                                         </PrimaryPrefix>
+                                                      </PrimaryExpression>
+                                                   </Expression>
+                                                   <Expression BeginColumn="120" BeginLine="47" EndColumn="129" EndLine="47"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               StandAlonePrimitive="false">
+                                                      <PrimaryExpression BeginColumn="120" BeginLine="47" EndColumn="129" EndLine="47"
+                                                                         FindBoundary="false"
+                                                                         Image=""
+                                                                         SingleLine="true">
+                                                         <PrimaryPrefix BeginColumn="120" BeginLine="47" EndColumn="129" EndLine="47"
+                                                                        FindBoundary="false"
+                                                                        Image=""
+                                                                        SingleLine="true"
+                                                                        SuperModifier="false"
+                                                                        ThisModifier="false">
+                                                            <Name BeginColumn="120" BeginLine="47" EndColumn="129" EndLine="47"
+                                                                  FindBoundary="false"
+                                                                  Image="categories"
+                                                                  SingleLine="true"/>
+                                                         </PrimaryPrefix>
+                                                      </PrimaryExpression>
+                                                   </Expression>
+                                                </ArgumentList>
+                                             </Arguments>
+                                          </AllocationExpression>
+                                       </PrimaryPrefix>
+                                    </PrimaryExpression>
+                                 </Expression>
+                              </VariableInitializer>
+                           </VariableDeclarator>
+                        </LocalVariableDeclaration>
+                     </BlockStatement>
+                     <BlockStatement Allocation="false" BeginColumn="9" BeginLine="50" EndColumn="89" EndLine="50"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <Statement BeginColumn="9" BeginLine="50" EndColumn="89" EndLine="50" FindBoundary="false"
+                                   Image=""
+                                   SingleLine="true">
+                           <StatementExpression BeginColumn="9" BeginLine="50" EndColumn="88" EndLine="50" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                              <PrimaryExpression BeginColumn="9" BeginLine="50" EndColumn="88" EndLine="50" FindBoundary="false"
+                                                 Image=""
+                                                 SingleLine="true">
+                                 <PrimaryPrefix BeginColumn="9" BeginLine="50" EndColumn="43" EndLine="50" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true"
+                                                SuperModifier="false"
+                                                ThisModifier="false">
+                                    <Name BeginColumn="9" BeginLine="50" EndColumn="43" EndLine="50" FindBoundary="false"
+                                          Image="dataAdapter.setDropDownViewResource"
+                                          SingleLine="true"/>
+                                 </PrimaryPrefix>
+                                 <PrimarySuffix ArgumentCount="1" Arguments="true" ArrayDereference="false" BeginColumn="44"
+                                                BeginLine="50"
+                                                EndColumn="88"
+                                                EndLine="50"
+                                                FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                                    <Arguments ArgumentCount="1" BeginColumn="44" BeginLine="50" EndColumn="88" EndLine="50"
+                                               FindBoundary="false"
+                                               Image=""
+                                               SingleLine="true"
+                                               Size="1">
+                                       <ArgumentList BeginColumn="45" BeginLine="50" EndColumn="87" EndLine="50"
+                                                     FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="true"
+                                                     Size="1">
+                                          <Expression BeginColumn="45" BeginLine="50" EndColumn="87" EndLine="50"
+                                                      FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="true"
+                                                      StandAlonePrimitive="false">
+                                             <PrimaryExpression BeginColumn="45" BeginLine="50" EndColumn="87" EndLine="50"
+                                                                FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="true">
+                                                <PrimaryPrefix BeginColumn="45" BeginLine="50" EndColumn="87" EndLine="50"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               SuperModifier="false"
+                                                               ThisModifier="false">
+                                                   <Name BeginColumn="45" BeginLine="50" EndColumn="87" EndLine="50"
+                                                         FindBoundary="false"
+                                                         Image="android.R.layout.simple_dropdown_item_1line"
+                                                         SingleLine="true"/>
+                                                </PrimaryPrefix>
+                                             </PrimaryExpression>
+                                          </Expression>
+                                       </ArgumentList>
+                                    </Arguments>
+                                 </PrimarySuffix>
+                              </PrimaryExpression>
+                           </StatementExpression>
+                        </Statement>
+                     </BlockStatement>
+                     <BlockStatement Allocation="false" BeginColumn="9" BeginLine="53" EndColumn="40" EndLine="53"
+                                     FindBoundary="false"
+                                     Image=""
+                                     SingleLine="true">
+                        <Statement BeginColumn="9" BeginLine="53" EndColumn="40" EndLine="53" FindBoundary="false"
+                                   Image=""
+                                   SingleLine="true">
+                           <StatementExpression BeginColumn="9" BeginLine="53" EndColumn="39" EndLine="53" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                              <PrimaryExpression BeginColumn="9" BeginLine="53" EndColumn="39" EndLine="53" FindBoundary="false"
+                                                 Image=""
+                                                 SingleLine="true">
+                                 <PrimaryPrefix BeginColumn="9" BeginLine="53" EndColumn="26" EndLine="53" FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true"
+                                                SuperModifier="false"
+                                                ThisModifier="false">
+                                    <Name BeginColumn="9" BeginLine="53" EndColumn="26" EndLine="53" FindBoundary="false"
+                                          Image="spinner.setAdapter"
+                                          SingleLine="true"/>
+                                 </PrimaryPrefix>
+                                 <PrimarySuffix ArgumentCount="1" Arguments="true" ArrayDereference="false" BeginColumn="27"
+                                                BeginLine="53"
+                                                EndColumn="39"
+                                                EndLine="53"
+                                                FindBoundary="false"
+                                                Image=""
+                                                SingleLine="true">
+                                    <Arguments ArgumentCount="1" BeginColumn="27" BeginLine="53" EndColumn="39" EndLine="53"
+                                               FindBoundary="false"
+                                               Image=""
+                                               SingleLine="true"
+                                               Size="1">
+                                       <ArgumentList BeginColumn="28" BeginLine="53" EndColumn="38" EndLine="53"
+                                                     FindBoundary="false"
+                                                     Image=""
+                                                     SingleLine="true"
+                                                     Size="1">
+                                          <Expression BeginColumn="28" BeginLine="53" EndColumn="38" EndLine="53"
+                                                      FindBoundary="false"
+                                                      Image=""
+                                                      SingleLine="true"
+                                                      StandAlonePrimitive="false">
+                                             <PrimaryExpression BeginColumn="28" BeginLine="53" EndColumn="38" EndLine="53"
+                                                                FindBoundary="false"
+                                                                Image=""
+                                                                SingleLine="true">
+                                                <PrimaryPrefix BeginColumn="28" BeginLine="53" EndColumn="38" EndLine="53"
+                                                               FindBoundary="false"
+                                                               Image=""
+                                                               SingleLine="true"
+                                                               SuperModifier="false"
+                                                               ThisModifier="false">
+                                                   <Name BeginColumn="28" BeginLine="53" EndColumn="38" EndLine="53"
+                                                         FindBoundary="false"
+                                                         Image="dataAdapter"
+                                                         SingleLine="true"/>
+                                                </PrimaryPrefix>
+                                             </PrimaryExpression>
+                                          </Expression>
+                                       </ArgumentList>
+                                    </Arguments>
+                                 </PrimarySuffix>
+                              </PrimaryExpression>
+                           </StatementExpression>
+                        </Statement>
+                     </BlockStatement>
+                  </Block>
+               </MethodDeclaration>
+            </ClassOrInterfaceBodyDeclaration>
+         </ClassOrInterfaceBody>
+      </ClassOrInterfaceDeclaration>
+   </TypeDeclaration>
+</CompilationUnit>
